@@ -10,15 +10,15 @@ by Valliappa Lakshmanan, Martin Gorner, Ryan Gillard
 
 ## Requirements
 ### Mac:
-'''
+```
 brew install graphviz
-'''
+```
 ### Linux:
 
-'''
+```
 sudo apt-get update
 sudo apt-get install graphviz
-'''
+```
 
 ## Quick start
 
@@ -28,42 +28,42 @@ To do so, you need to run the following:
 
 ## Create the virtual environment
 
-''' 
+``` 
 python3 -m venv env
 
-'''
+```
 
 ## Activate the environment
 ### Linux/mac:
 
-'''
+```
 source env/bin/activate
-'''
+```
 
 ### Windows:
 
-'''
+```
 venv\Scripts\activate
-'''
+```
 
 ## Install the required pacjages
 
-''' 
+``` 
 pip install --upgrade pip
 pip install jupyter
 pip install ipykernel
-'''
+```
 
 ## Register the kernel
 
-'''
+```
 python -m ipykernel install --user --name=venv
 
-'''
+```
 
 ## Register the kernel
 
-'''
+```
 jupyter notebook
 
-'''
+```
