@@ -8,6 +8,20 @@ Open-sourced code from the O'Reilly book
 Practical Machine Learning for Computer Vision</a>
 by Valliappa Lakshmanan, Martin Gorner, Ryan Gillard
 
+## Requirements
+### Mac:
+'''
+brew install graphviz
+'''
+### Linux:
+
+'''
+sudo apt-get update
+sudo apt-get install graphviz
+'''
+
+## Quick start
+
 
 Here, in addition to the author's code, there is a translation into Pytorch code. 
 To do so, you need to run the following:
